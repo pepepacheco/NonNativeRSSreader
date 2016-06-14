@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="container">
+    <div class="well">
+        <div class="form-control btn btn-success" onclick="loadMain('newRss.xml')">
+            (C)Nuevo alimentador de noticias
+        </div>
+        <div class="form-control btn btn-warning" onclick="listRSS()">
+            (R)Listado de alimentadores
+        </div>
+        <div class="form-control btn btn-primary" onclick="updateRSS()">
+            (U)Modificar alimentador de noticias
+        </div>
+        <div class="form-control btn btn-danger" onclick="deleteRSS()">
+            (D)Borrar alimentador de noticias
+        </div>
+        <div class="form-control btn btn-default" onclick="loadMain('creditos.xml')">
+            Créditos    
+        </div>
+    </div>
+</div>

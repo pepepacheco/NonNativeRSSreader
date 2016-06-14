@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div id="menu" class="container"> 
+    <div class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" onclick="loadMain('main.xml')">Lector RSS 2.0</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar-content">
+                <ul class="nav navbar-nav">
+                    <li id="inicio" onclick="loadMain('main.xml')">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li id="listar" onclick="listRSS()">
+                        <a href="#">Listado Rss</a>
+                    </li>
+                    <li id="añadir" onclick="loadMain('newRss.xml')">
+                        <a href="#">Añadir Rss</a>
+                    </li>
+                    <li id="modificar" onclick="updateRSS()">
+                        <a href="#">Modificar Rss</a>
+                    </li>
+                    <li id="borrar" onclick="deleteRSS()">
+                        <a href="#">Borrar Rss</a>
+                    </li>
+                    <li id="creditos" onclick="loadMain('creditos.xml')">
+                        <a href="#">Créditos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
